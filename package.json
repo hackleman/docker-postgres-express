@@ -1,7 +1,7 @@
 {
   "name": "basics",
   "version": "1.0.0",
-  "description": "CIS 4301 practice app",
+  "description": "postgres-node",
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
