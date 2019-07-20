@@ -1,0 +1,11 @@
+{
+    "MongoURI": "mongodb+srv://Hackleman:Jj7405070366@cluster0-6bs3p.mongodb.net/test?retryWrites=true",
+    "jwtSecret": "rosebud",
+    "postgres": {
+        "user":"postgres",
+        "host": "localhost",
+        "database": "postgres",
+        "password": "1234",
+        "port": "5432"
+    }
+}
