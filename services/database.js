@@ -3,9 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const http = require('http');
 const bodyParser = require('body-parser');
-const config = require('config');
 const data = require('../routes/postgres');
-
 
 let server;
 

@@ -3,9 +3,9 @@ const QueryStream = require('pg-query-stream')
 const JSONStream = require('JSONStream')
 const pool = new Pool({
   user:"postgres",
-  host: "localhost",
-  database: "postgres",
-  password: "1234",
+  host: "db",
+  database: "taxidata",
+  password: "postgres",
   port: "5432"
 })
 
