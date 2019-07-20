@@ -1,13 +1,13 @@
 FROM node:10.15.0-alpine
-EXPOSE 3000 9229
 
-WORKDIR /home/app
+WORKDIR /usr/src/app
 
-COPY package.json /home/app/
-COPY package-lock.json /home/app/
+COPY package.*json ./
 
 RUN NPM INSTALL
 
-COPY . /home/app
+COPY . .
 
-RUN npm run start
+EXPOSE 4000
+
+CMD ["npm", "start"]
