@@ -15,7 +15,7 @@
     "bcryptjs": "*",
     "body-parser": "^1.19.0",
     "cisco-vpn": "^1.0.2",
-    "config": "^3.1.0",
+    "config": "^3.3.8",
     "cors": "^2.8.5",
     "csvtojson": "^2.0.8",
     "express": "^4.16.4",
